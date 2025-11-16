@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.vscode/
+.idea/
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+
+# Virtual Envs
+.venv/
+venv/
+ENV/
+env/
+
+# Django
+*.log
+staticfiles/
+media/
+db.sqlite3
+db.sqlite3-journal
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Expo / React Native
+.expo/
+.expo-shared/
+*.expo/
+android/.gradle/
+android/app/build/
+ios/build/
+ios/Pods/
+*.keystore
+*.jks
+
+# Build / Coverage
+dist/
+build/
+coverage/
+.coverage
